@@ -7,11 +7,22 @@
     font-style: normal;
   }
 
-
-/* regole specifiche classi e sottoclassi */
+/* regole singoli tag e figli */
 header h1 {
     margin-top: 10px;
 }
+
+p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+ul {
+    padding: 15px;
+}
+
+/* regole specifiche classi e sottoclassi */
+
 
 .grey-text {
     color: grey;
@@ -19,6 +30,10 @@ header h1 {
 
 .violet-text {
     color: violet;
+}
+
+.yellow-text {
+    background-color: yellow;
 }
 
 
