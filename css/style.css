@@ -9,7 +9,7 @@
 
 
 body {
-    max-width: 800px;
+    width: 850px;
     margin: auto;
 }
 
@@ -24,6 +24,12 @@ header h1 {
 
 .violet-text {
     color: violet;
+}
+
+.tim-image {
+    max-width: 100%;
+    width: 400px;
+    height: auto;
 }
 
 /* regole specifiche ids */
