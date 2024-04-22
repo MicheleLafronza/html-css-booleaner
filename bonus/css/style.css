@@ -23,6 +23,11 @@ ul {
 
 /* regole specifiche classi e sottoclassi */
 
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
 .grey-text {
     color: grey;
 }
