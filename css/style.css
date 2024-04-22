@@ -1,4 +1,45 @@
+/* regole base per tutta la pagina */
 * {
     margin: 0px;
     padding: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+body {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* regole specifiche classi e sottoclassi */
+header h1 {
+    margin-top: 10px;
+}
+
+.grey-text {
+    color: grey;
+}
+
+.violet-text {
+    color: violet;
+}
+
+/* regole specifiche ids */
+#sfondo-superiore {
+    background-image: url(../img/pattern.png);
+    background-color: blueviolet;
+    background-size: 200px, 200px;
+    height: 50px;
+}
+
+#logo {
+    width: 120px;
+    margin-top: 18px;
+    margin-left: 5px;
+}
+
+#date {
+    font-size: 10px;
 }
