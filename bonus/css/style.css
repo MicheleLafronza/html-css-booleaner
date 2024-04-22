@@ -24,7 +24,12 @@ ul {
 /* regole specifiche classi e sottoclassi */
 
 .container {
-    width: 1200px;
+    width: 1350px;
+    margin: auto;
+}
+
+.container-page {
+    width: 1100px;
     margin: auto;
 }
 
@@ -54,7 +59,7 @@ ul {
 #logo {
     width: 120px;
     margin-top: 18px;
-    margin-left: 5px;
+    margin-left: 125px;
 }
 
 #date {
